@@ -25,6 +25,9 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
+
+
+
 body {
 	line-height: 1;
 }
@@ -1655,6 +1658,9 @@ input, select, textarea {
 
 		@media screen and (max-width: 736px) {
 
+			img {
+width: 6%;
+}
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -1900,6 +1906,10 @@ input, select, textarea {
 
 		@media screen and (max-width: 480px) {
 
+			img {
+				width: 10%;
+				}
+			
 			.row {
 				display: flex;
 				flex-wrap: wrap;
@@ -3362,6 +3372,11 @@ input, select, textarea {
 	body.landing .dropotron.level-0 {
 		margin-top: 0;
 	}
+/* Logo */
+
+    
+
+/*
 
 /* Header */
 
@@ -3381,6 +3396,8 @@ input, select, textarea {
 		width: 100%;
 		z-index: 100;
 	}
+		
+
 
 		#header h1 {
 			height: inherit;
